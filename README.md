@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is my pet project „Figure Drawer“ that allows the user to draw any figure on a console (for example any kind of
+This is my (as a student) pet project „Figure Drawer“ that allows the user to draw any figure on a console (for example any kind of
 triangles, or a rectangle or even a house) with just knowing a size of a figure - all the calculation and actual drawing
 is done by the program itself.
 

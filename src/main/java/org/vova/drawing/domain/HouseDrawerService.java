@@ -20,8 +20,8 @@ public class HouseDrawerService extends BaseDrawer<HouseDrawerService> {
         checkMinSize(size, 3);
         ensureOdd(size);
 
-        // Business logic code
         createPatternDrawer()
+                // Business logic code
                 .printDottedLinesEx(center, point(center, -1), point(center, 1))
                 .printSolidLine(size)
                 .printDottedLinesEx(size - 2, point(0, 0), point(1, 1), point(size - 2, -1), point(size - 1, 0))
@@ -34,8 +34,8 @@ public class HouseDrawerService extends BaseDrawer<HouseDrawerService> {
         checkMinSize(size, 3);
         ensureOdd(size);
 
-        // Business logic code
         createPatternDrawer()
+                // Business logic code
                 .printDottedLine(midHeight + 1)
                 .printDottedLines(midHeight, dot(midHeight, -1), dot(1, 2))
                 .printSolidLine(size)
